@@ -3,7 +3,6 @@
         "url": "https://www.alpenverein-muenchen-oberland.de/alpinprogramm/winter/snowboard-bergsteigen/mehrtages-snowboardtouren?tours=WI_SNOWB_MT&tour=VA-25-6546&#tour-list-container",
         "on": "change",
         "repeat": "forever",
-        "html_id": "block-system-main-block",
         "hash": "19b944df8d26a1c2e1cb69cb14a506b1149235afc8465acdbaf8c0f159c9b260"
     }
 }
