@@ -36,6 +36,14 @@ def should_notify(watch_item: dict) -> bool:
                 print(f'Could not find html_id for {watch_item["url"]}')
                 return None
             to_hash = sec.encode()
+
+        if watch_item.get('html_class'):
+            b = BeautifulSoup(html, 'html.parser')
+            sec = b.find(class_=watch_item['html_class'])
+            if sec is None:
+                print(f'Could not find html_class for {watch_item["url"]}')
+                return None
+            to_hash = sec.encode()
         
         old_hash = watch_item.get('hash')
         new_hash = hashlib.sha256(to_hash).hexdigest()
