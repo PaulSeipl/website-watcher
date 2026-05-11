@@ -1,4 +1,8 @@
-import json, sys, re, requests, hashlib
+import json
+import sys
+import re
+import requests
+import hashlib
 from bs4 import BeautifulSoup
 
 
@@ -8,7 +12,7 @@ def should_notify(watch_item: dict) -> bool:
     # If we can't get the html, return None to notify as unreachable
     try:
         url = watch_item['url']
-        response = requests.get(url) # verify = False to ignore SSL errors
+        response = requests.get(url, allow_redirects=True) # verify = False to ignore SSL errors
         html = response.text
     except:
         return None
