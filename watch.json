@@ -3,12 +3,12 @@
         "url": "https://portal.immobilienscout24.de/ergebnisliste/54992277/1?sid=n4b0n2282go8qcnfsbebgukfg0",
         "on": "change",
         "repeat": "forever",
-        "hash": "de6d2d1b2ae0831510886b17c00e77c5756dae53720d193cd7f7a89c0bd62a8a"
+        "hash": "5e6d4d78e60c93dbf14959427ac03c253c94461885b9b775844497ad1df93f23"
     },
     "VFV": {
         "url": "https://www.vfv-muenchen.de/wohnungsangebote",
         "on": "change",
         "repeat": "forever",
-        "hash": "e8a48833dd2847aa478b99649daceef14d1d333b506aa0324ba94e4513d47ff9"
+        "hash": "d49881f92ab52537b652798a0ee283826c71a26eec6f63a70ec99d13d5ddfcd3"
     }
 }
